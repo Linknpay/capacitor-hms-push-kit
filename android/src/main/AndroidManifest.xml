@@ -1,9 +1,9 @@
 
   <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="com.ikamaru.capacitor.hms.push.kit.capacitorhmspushkit">
+      >
     <application>
       <service
-          android:name="com.ikamaru.capacitor.hms.push.kit.MyPushService"
+          android:name="com.linknpay.capacitor.hms.push.kit.MyPushService"
           android:exported="false">
         <intent-filter>
           <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
@@ -15,4 +15,3 @@
     </application>
 
   </manifest>
-  

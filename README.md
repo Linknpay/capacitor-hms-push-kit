@@ -26,10 +26,10 @@ keytool -list -v -keystore hms_test.jks
     -    In to the tab **Project Setting** > **General information** past the obtained SHA256 fingerprint, Click √ to save the fingerprint and download then the `agconnect-services.json` file.
 ![image](https://user-images.githubusercontent.com/61454003/101918101-3f378300-3bc9-11eb-9633-73beedb855b3.png)
 
-### App Side Preparation (Please refer to the following [Demo](https://github.com/ikamaru/ionic-capacitorHmsPushkit-demo))
+### App Side Preparation (Please refer to the following [Demo](https://github.com/linknpay/ionic-capacitorHmsPushkit-demo))
 - Add the plugin to your project using the following command:
 ```bash
-npm install https://github.com/ikamaru/capacitor-hms-push-kit/
+npm install https://github.com/linknpay/capacitor-hms-push-kit/
 ``` 
 >Note: Sync after installing the plugin using the cmd: `npx cap sync android` 
 - After enabling the Push Kit make sure to re-download the `agconnect-services.json` and past it to the **android/app** folder of your capacitor project.
@@ -68,7 +68,7 @@ try {
 
 ```java
 import com.getcapacitor.BridgeActivity;
-import com.ikamaru.capacitor.hms.push.kit.PushKit;
+import com.linknpay.capacitor.hms.push.kit.PushKit;
 
 public class MainActivity extends BridgeActivity {
   @Override

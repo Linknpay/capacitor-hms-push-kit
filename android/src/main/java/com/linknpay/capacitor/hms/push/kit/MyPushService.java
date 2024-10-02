@@ -1,4 +1,4 @@
-package com.ikamaru.capacitor.hms.push.kit;
+package com.linknpay.capacitor.hms.push.kit;
 
 import android.content.Context;
 import android.util.Log;

@@ -6,7 +6,7 @@ import android.content.Context;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.platform.app.InstrumentationRegistry;
 
-import com.ikamaru.capacitor.hms.push.kit.PushKit;
+import com.linknpay.capacitor.hms.push.kit.PushKit;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

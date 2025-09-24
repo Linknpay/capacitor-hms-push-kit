@@ -1,6 +1,6 @@
 {
   "name": "capacitor-hms-push-kit",
-  "version": "7.0.0",
+  "version": "7.0.1",
   "description": "Capacitor plugin for HMS push kit",
   "main": "dist/plugin.js",
   "module": "dist/esm/index.js",
@@ -23,6 +23,7 @@
     "@capacitor/android": "^7.0.0",
     "@capacitor/core": "^7.0.0",
     "@capacitor/ios": "^7.0.0",
+    "@capacitor/cli": "^7.0.0",
     "@ionic/prettier-config": "^4.0.0",
     "@ionic/swiftlint-config": "^2.0.0",
     "@rollup/plugin-node-resolve": "^8.4.0",

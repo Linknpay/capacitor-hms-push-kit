@@ -30,7 +30,7 @@ public class PushKit extends Plugin {
             public void onComplete(Task<Void> task) {
                 if (task.isSuccessful()) {
                     Log.d(TAG, "subscribe successful");
-                    call.success();
+                    call.resolve();
                 } else {
                     Log.d(TAG, "subscribe failed "+task.getException().getMessage());
                     call.reject("subscribe failed: "+task.getException().getMessage());
@@ -52,7 +52,7 @@ public class PushKit extends Plugin {
             public void onComplete(Task<Void> task) {
                 if (task.isSuccessful()) {
                     Log.d(TAG, "unsubscribe successful");
-                    call.success();
+                    call.resolve();
                 } else {
                     Log.d(TAG, "unsubscribe failed: "+task.getException().getMessage());
                     call.reject("unsubscribe failed: "+task.getException().getMessage());
